@@ -12,6 +12,7 @@
 <template>
 	<div class="grid place-items-center min-h-[80vh]">
 		<div>
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe impedit ea eveniet magnam natus vitae, quasi pariatur excepturi corporis, temporibus quisquam sed eos modi officia illo itaque amet quae incidunt?
 			<img :src="VitailseLogo" width="300" class="mx-auto" />
 			<p class="lg:text-left text-center">
 				{{ t('intro.desc') }}
