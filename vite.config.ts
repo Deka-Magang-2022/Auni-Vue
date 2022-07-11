@@ -9,10 +9,14 @@ import Pages from 'vite-plugin-pages';
 import Layouts from 'vite-plugin-vue-layouts';
 import { VitePWA } from 'vite-plugin-pwa';
 import VueI18n from '@intlify/vite-plugin-vue-i18n';
+import markdown from 'vite-plugin-md'
 // https://vitejs.dev/config/
 export default defineConfig({
 	plugins: [
-		vue(),
+		vue({
+			include: [/\.vue$/,/\.md$/],
+		}),
+		markdown(),
 		Components({
 			dts: true,
 			resolvers: [
