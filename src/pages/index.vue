@@ -13,14 +13,15 @@
 
 <template>
 	<div class="grid place-items-center min-h-[80vh]">
-		<div class="grid bg-orange-200 dark:bg-neutral-500  py-10 px-10  shadow-2xl dark:shadow-purple-500 rounded max-w-lg text-center place-items-center  dark:text-yellow-300 outline outline-sky-600 ">
+		<div
+			class="grid bg-orange-200 dark:bg-neutral-500/40  py-10 px-10  shadow-2xl dark:shadow-purple-500 rounded max-w-lg text-center place-items-center  dark:text-purple-400 outline outline-amber-900 dark:outline-purple-600 ">
 			<div class="grid max-w-lg text-center  rounded-full place-items-center">
 				<img :src="Userimg" width="300"
-					class=" outline-double outline-amber-900 outline-offset-4 dark:shadow-green-500 shadow-xl rounded-full mx-auto" />
+					class=" outline-double outline-amber-900 dark:outline-green-600 outline-offset-4 dark:shadow-green-500 shadow-xl rounded-full mx-auto" />
 			</div>
 			<h1 class="uppercase font-bold text-xl mt-10">profil</h1>
 			<div class="text-sm text-justify ">
-				<p class="shadow-green-500"> Nama : Khairul Auni Fikri </p>
+				<p> Nama : Khairul Auni Fikri </p>
 				<p> Date Of Birth: Samarinda,16 jan 2005 </p>
 				<p> Religion : Islam </p>
 				<p> Gender : Male </p>
@@ -59,10 +60,14 @@
 					<p> - Javascript</p>
 				</div>
 			</div>
-			<div class="max-w-lg text-center mt-10">
+			<div class="max-w-lg py-10 text-center mt-10">
 				<h1 class="uppercase font-bold text-xl">About</h1>
 				<p class="text-sm text-justify"> Siswa Ti yang antusia dan bermotivasi tinggi dengan kemampuan
 					Programming dan mencari tantangan baru</p>
+			</div>
+			<div
+				class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-green-300">
+				<a href="todo-list"> Next> </a>
 			</div>
 		</div>
 	</div>
