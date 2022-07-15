@@ -13,8 +13,7 @@
 
 <template>
 	<div class="grid place-items-center min-h-[80vh]">
-		<div
-			class="grid bg-orange-200 dark:bg-neutral-500/40  py-10 px-10  shadow-2xl dark:shadow-purple-500 rounded max-w-lg text-center place-items-center  dark:text-purple-400 outline outline-amber-900 dark:outline-purple-600 ">
+		<div class="grid bg-orange-200 dark:bg-neutral-500/40  py-10 px-10  shadow-2xl dark:shadow-purple-500 rounded max-w-lg text-center place-items-center  dark:text-purple-400 outline outline-amber-900 dark:outline-purple-600 ">
 			<div class="grid max-w-lg text-center  rounded-full place-items-center">
 				<img :src="Userimg" width="300"
 					class=" outline-double outline-amber-900 dark:outline-green-600 outline-offset-4 dark:shadow-green-500 shadow-xl rounded-full mx-auto" />
@@ -66,7 +65,7 @@
 					Programming dan mencari tantangan baru</p>
 			</div>
 			<div
-				class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-green-300">
+				class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-orange-300">
 				<a href="todo-list"> Next> </a>
 			</div>
 		</div>
