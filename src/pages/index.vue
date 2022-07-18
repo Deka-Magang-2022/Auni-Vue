@@ -30,7 +30,8 @@
 				<h1 class="uppercase font-bold text-xl">Contact</h1>
 				<div class="text-sm text-justify ">
 					<p> No telp/WA : <a href="https://wa.me/+6282116852441" target="_blank"
-							class="after:content-['_↗']  dark:text-purple-600 dark:hover:text-sky-200 font-bold">0821-1685-2441</a></p>
+							class="after:content-['_↗']  dark:text-purple-600 dark:hover:text-sky-200 font-bold">0821-1685-2441</a>
+					</p>
 					<p> Email : <a href="mailto:aunifikri@gmail.com" target="_blank"
 							class="after:content-['_↗']  dark:text-purple-600 dark:hover:text-sky-200 font-bold">aunifikri@gmail.com</a>
 					</p>
@@ -81,9 +82,21 @@
 				<p class="text-sm text-justify"> Siswa Ti yang antusia dan bermotivasi tinggi dengan kemampuan
 					Programming dan mencari tantangan baru</p>
 			</div>
-			<div
-				class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-orange-300">
-				<a href="todo-list"> Next> </a>
+			<div>
+				<a class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-orange-300"
+					href="todo-list"> todo-list </a>
+				<div>
+					<router-link :to="{ name: 'kalkulator1' }"
+						class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-orange-300">
+						Kalkulator
+					</router-link>
+				</div>
+				<div>
+					<router-link :to="{ name: 'jurnal' }"
+						class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-orange-300">
+						jurnal
+					</router-link>
+				</div>
 			</div>
 		</div>
 	</div>
