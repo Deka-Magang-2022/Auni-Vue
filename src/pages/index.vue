@@ -13,7 +13,8 @@
 
 <template>
 	<div class="grid place-items-center min-h-[80vh]">
-		<div class="grid bg-orange-200 dark:bg-neutral-500/40  py-10 px-10  shadow-2xl dark:shadow-purple-500 rounded max-w-lg text-center place-items-center  dark:text-purple-400 outline outline-amber-900 dark:outline-purple-600 ">
+		<div
+			class="grid text-amber-900 bg-orange-200 dark:bg-neutral-500/40  py-10 px-10  shadow-2xl dark:shadow-purple-500 rounded max-w-lg text-center place-items-center  dark:text-purple-400 outline outline-amber-900 dark:outline-purple-600 ">
 			<div class="grid max-w-lg text-center  rounded-full place-items-center">
 				<img :src="Userimg" width="300"
 					class=" outline-double outline-amber-900 dark:outline-green-600 outline-offset-4 dark:shadow-green-500 shadow-xl rounded-full mx-auto" />
@@ -28,9 +29,16 @@
 			<div class="grid max-w-lg text-center place-items-center mt-10">
 				<h1 class="uppercase font-bold text-xl">Contact</h1>
 				<div class="text-sm text-justify ">
-					<p> No telp/WA : 0821 1685 2441 </p>
-					<p> Email : aunifikri@gmail.com</p>
-					<p> Instagram : aunivz.16_ </p>
+					<p> No telp/WA : <a href="https://wa.me/+6282116852441" target="_blank"
+							class="after:content-['_↗']  dark:text-purple-600 dark:hover:text-sky-200 font-bold">0821-1685-2441</a></p>
+					<p> Email : <a href="mailto:aunifikri@gmail.com" target="_blank"
+							class="after:content-['_↗']  dark:text-purple-600 dark:hover:text-sky-200 font-bold">aunifikri@gmail.com</a>
+					</p>
+					<p> Instagram : <a href="https://www.instagram.com/aunivz.16_/" target="_blank"
+							class="after:content-['_↗']  dark:text-purple-600 dark:hover:text-sky-200 font-bold">aunivz.16_</a>
+					</p>
+					<a href="https://github.com/AuniVz" target="_blank"
+						class="after:content-['_↗']  dark:text-purple-600 dark:hover:text-sky-200 font-bold">Github</a>
 				</div>
 			</div>
 			<div class="max-w-lg text-center mt-10">
@@ -45,9 +53,18 @@
 			<div class="max-w-lg text-center mt-10">
 				<h1 class="uppercase font-bold text-xl">Education</h1>
 				<div class="text-sm text-justify">
-					<p>- SD Muhammadiyah 2 Samarinda</p>
-					<p>- SMPN 16 Samarinda</p>
-					<p>- SMK TI AirLangga Samarinda</p>
+					<p>- <a class="after:content-['_↗'] dark:text-purple-600 hover:text-sky-200 font-semibold"
+							target="_blank"
+							href="https://www.google.co.id/maps/place/SD+MUHAMMADIYAH+2/@-0.4906311,117.1413606,15z/data=!4m5!3m4!1s0x0:0x363ac7fe27edcd6d!8m2!3d-0.4973719!4d117.1341062">
+							SD Muahmmadiyah 2 SAMARINDA</a></p>
+					<p>- <a class="after:content-['_↗'] dark:text-purple-600 hover:text-sky-200 font-semibold"
+							target="_blank"
+							href="https://www.google.co.id/maps/place/SMP+Negeri+16+Samarinda/@-0.5146555,117.13044,11.95z/data=!4m5!3m4!1s0x2df67fd303b28c2b:0x65e7eeb487ccff3e!8m2!3d-0.5315734!4d117.0907694">
+							SPMN 16 SAMARINDA </a></p>
+					<p>- <a class="after:content-['_↗']  dark:text-purple-600 hover:text-sky-200 font-semibold"
+							target="_blank"
+							href="https://www.google.co.id/maps/place/SMKTI+Airlangga/@-0.5146555,117.13044,11.95z/data=!4m5!3m4!1s0x2df67f1489bfeb63:0xe1ef6869246e2125!8m2!3d-0.4851223!4d117.1484416">
+							SMK TI Airlangga SAMARINDA </a></p>
 				</div>
 			</div>
 			<div class="max-w-lg text-center mt-10">
