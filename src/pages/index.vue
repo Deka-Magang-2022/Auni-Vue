@@ -2,7 +2,6 @@
 	import { useStore } from '@/store';
 	import VitailseLogo from '@/assets/logo.png';
 	import Userimg from '@/assets/profil.jpg';
-	import Markdown from '@/assets/markdown.md';
 	useHead({
 		title: 'Vitailse | Opinionated vite starter template',
 	});
