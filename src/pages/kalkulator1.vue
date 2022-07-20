@@ -51,7 +51,7 @@ const removeLast = () => {
 					:class="{ 'bg-red-500 rounded-md text-white': store.temp == 'Error' }">
 					{{ store.temp }}
 				</div>
-				<input disabled class="w-full rounded-md px-4 py-2 text-right" type="text" v-model="store.input">
+				<input enabled class="w-full rounded-md px-4 py-2 text-right" type="text" v-model="store.input">
 			</div>
 			<div class="w-full grid grid-flow-row grid-cols-4 mt-5 gap-5">
 				<div class="w-full grid grid-flow-row grid-cols-3 gap-5 col-span-3">
