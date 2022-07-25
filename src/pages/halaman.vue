@@ -1,16 +1,16 @@
 <script setup lang="ts">
+	import Sv1 from '@/assets/img/sv2.png';
+	import Sv2 from '@/assets/img/sv1.png';
+	import Sv3 from '@/assets/img/sv3.png';
+	import Sv4 from '@/assets/img/sv4.png';
+	import Sv5 from '@/assets/img/sv5.png';
+	import Sv6 from '@/assets/img/sv6.png';
+	import Sv7 from '@/assets/img/sv7.png';
+	import Sv8 from '@/assets/img/sv8.png';
+	import Sv9 from '@/assets/img/sv9.png';
 	useHead({
 		title: 'halaman',
 	});
-import Sv1 from '@/assets/img/sv2.png';
-import Sv2 from '@/assets/img/sv1.png';
-import Sv3 from '@/assets/img/sv3.png';
-import Sv4 from '@/assets/img/sv4.png';
-import Sv5 from '@/assets/img/sv5.png';
-import Sv6 from '@/assets/img/sv6.png';
-import Sv7 from '@/assets/img/sv7.png';
-import Sv8 from '@/assets/img/sv8.png';
-import Sv9 from '@/assets/img/sv9.png';
 
 </script>
 
@@ -27,8 +27,8 @@ import Sv9 from '@/assets/img/sv9.png';
 				3
 			</div>
 	</div> -->
-		<div class="grid grid-cols-3 grid-rows-5 min-h-screen grid-flow-col">
-			<div class="col-span-2 row-span-5 bg-[#f2cf77]">
+		<div class="grid grid-cols-3 grid-rows-3  grid-flow-col">
+			<div class="col-span-2 row-span-3 bg-[#f2cf77]">
 				<nav class=" flex  items-center text-[#005564] bg-[#f2cf77]  ">
 					<div class=" font-serif font-bold flex items-center h-full">
 						<a href="" class="my-5 mr-72 mx-16 uppercase text-2xl">shave</a>
@@ -57,7 +57,7 @@ import Sv9 from '@/assets/img/sv9.png';
 						<a class="hover:bg-[#3aa7aa] py-4 font-semibold  mx-16 uppercase text-xl font-serif text-[#f2cf77] bg-[#005564] px-24"
 							href="">get started</a>
 					</div>
-					<div class="flex justify-end h-72 px32"><img :src="Sv1" width=""></div>
+					<div class="flex justify-end h-10 "><img :src="Sv1" width=""></div>
 				</div>
 			</div>
 			<div
@@ -73,7 +73,7 @@ import Sv9 from '@/assets/img/sv9.png';
 					</div>
 				</div>
 			</div>
-			<div class="row-span-3 grid grid-cols-3 grid-rows-3  bg-yellow-500 col-span-2">
+			<div class="row-span-1 grid grid-cols-3 grid-rows-3  bg-yellow-500 col-span-2">
 				<div class=" flex justify-center  bg-[#ffdcec] "><img :src="Sv1" width=""></div>
 				<div class=" flex justify-center  bg-[#93dbde] "><img :src="Sv2" width=""></div>
 				<div class=" flex justify-center  bg-[#ffb0d0] "><img :src="Sv3" width=""></div>
