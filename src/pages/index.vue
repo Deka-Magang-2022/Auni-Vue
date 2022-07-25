@@ -81,19 +81,41 @@
 				<p class="text-sm text-justify"> Siswa Ti yang antusia dan bermotivasi tinggi dengan kemampuan
 					Programming dan mencari tantangan baru</p>
 			</div>
-			<div>
-				<a class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-orange-300"
-					href="todo-list"> todo-list </a>
-				<div>
-					<router-link :to="{ name: 'kalkulator1' }"
-						class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-orange-300">
-						Kalkulator
+			<div class="grid grid-cols-4 grid-flow gap-2">
+				<div
+					class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-4 py-2 rounded-md text-orange-300">
+					<a href="todo-list"> Todo List </a>
+				</div>
+				<div
+					class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-4 py-2 rounded-md text-orange-300">
+					<router-link :to="{ name: 'kalkulator1' }">Kalkulator
 					</router-link>
 				</div>
-				<div>
-					<router-link :to="{ name: 'jurnal' }"
-						class="bg-amber-900 hover:outline-amber-900 hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-3 py-1 rounded-md text-orange-300">
-						jurnal
+				<div
+					class="bg-amber-900 hover:outline-amber-900  hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-4 py-2 rounded-md text-orange-300">
+					<router-link :to="{ name: 'jurnal' }">Jurnal
+					</router-link>
+				</div>
+				<div
+					class="bg-amber-900 hover:outline-amber-900  hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-4 py-2 rounded-md text-orange-300">
+					<router-link :to="{ name: 'login' }">Login
+					</router-link>
+				</div>
+				<div
+					class="bg-amber-900 hover:outline-amber-900  hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-4 py-2 rounded-md text-orange-300">
+					<router-link :to="{ name: 'halaman' }">Halaman
+					</router-link>
+				</div>
+				<div
+					class="bg-amber-900 hover:outline-amber-900  hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-4 py-2 rounded-md text-orange-300">
+					<router-link :to="{ name: 'rng' }">
+						RNG
+					</router-link>
+				</div>
+				<div
+					class="bg-amber-900 hover:outline-amber-900  hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-4 py-2 rounded-md text-orange-300">
+					<router-link :to="{ name: 'color-switcher' }">
+						Color
 					</router-link>
 				</div>
 			</div>
