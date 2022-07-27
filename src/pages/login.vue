@@ -5,7 +5,7 @@
 </script>
 
 <template>
-	<div class="bg-orange-200">
+	<div class="bg-orange-200 -m-8">
 		<div class="body-bg min-h-screen pt-12 md:pt-20 pb-6 px-2 md:px-0">
 			<div class="max-w-lg mx-auto">
 				<a href="#">
