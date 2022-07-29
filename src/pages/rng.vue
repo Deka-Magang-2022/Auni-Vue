@@ -1,12 +1,10 @@
 <script setup lang="ts">
 import { useStore } from '@/store';
-const store = useStore();
-useHead({
-	title: 'rng',
-});
+	const store = useStore();
+	useHead({
+		title: 'rng',
+	});
 store.input = '';
-
-
 const generateRandom = () => {
 	store.input = Math.floor(Math.random() * 100 + 1);
 }
