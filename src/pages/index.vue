@@ -118,6 +118,12 @@
 						Color
 					</router-link>
 				</div>
+				<div
+					class="bg-amber-900 hover:outline-amber-900  hover:bg-black dark:hover:outline dark:hover:bg-white dark:bg-green-500 dark:text-purple-700 px-4 py-2 rounded-md text-orange-300">
+					<router-link :to="{ name: 'netflix' }">
+						Netflix
+					</router-link>
+				</div>
 			</div>
 		</div>
 	</div>
